@@ -11,4 +11,5 @@ for i in Frase:
     if i == Letra:
         cont += 1
 
-print("La frase '" + Frase + "' tiene la letra '" + Letra + "' " + str(cont) + " veces.")
+#print("La frase '" + Frase + "' tiene la letra '" + Letra + "' " + str(cont) + " veces.")
+print(f"En el texto '{Frase}', la letra '{Letra}' aparece {cont} veces.")
