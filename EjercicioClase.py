@@ -13,6 +13,8 @@ while not salir:
             print("Eres menor de edad")
         elif Edad >= 18 and Edad < 65:
             print("Eres mayor de edad")
+        elif Edad >= 60 and Edad <= 90:
+            print("Ya puedes solicitar tu tarjeta del Bienestar")
         else:
             print("Ya estas viejito...")
     else:
