@@ -13,3 +13,4 @@ for i in Frase:
 
 #print("La frase '" + Frase + "' tiene la letra '" + Letra + "' " + str(cont) + " veces.")
 print(f"En el texto '{Frase}', la letra '{Letra}' aparece {cont} veces.")
+print("Esto es una prueba que da error.")
